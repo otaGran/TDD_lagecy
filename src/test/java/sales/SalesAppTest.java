@@ -8,8 +8,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.doReturn;
-import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.*;
 
 public class SalesAppTest {
 
@@ -47,4 +46,15 @@ public class SalesAppTest {
 		SalesApp salesApp = spy(new SalesApp());
 		assertEquals(headers, salesApp.getHeaders(true));
 	}
+
+	@Test
+	public void should_generate_template_list_when_given_maxRows(){
+		List<SalesReportData> oriList = Arrays.asList(new SalesReportData(), new SalesReportData(), new SalesReportData());
+		int maxRows = 2;
+		SalesApp salesApp = spy(new SalesApp());
+
+		assertEquals(oriList.subList(0,1), salesApp.generateTempList());
+	}
+
+
 }
