@@ -53,7 +53,7 @@ public class SalesAppTest {
 		int maxRows = 2;
 		SalesApp salesApp = spy(new SalesApp());
 
-		assertEquals(oriList.subList(0,1), salesApp.generateTempList());
+		assertEquals(oriList.subList(0,3), salesApp.generateTempList(2, oriList));
 	}
 
 

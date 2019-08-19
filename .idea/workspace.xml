@@ -164,7 +164,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SalesAppTest.should_return_sales_id_sales_name_activity_time_when_nat_trade">
+  <component name="RunManager" selected="JUnit.SalesAppTest.should_generate_template_list_when_given_maxRows">
+    <configuration name="SalesAppTest.should_generate_template_list_when_given_maxRows" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sales" />
+      <option name="MAIN_CLASS_NAME" value="sales.SalesAppTest" />
+      <option name="METHOD_NAME" value="should_generate_template_list_when_given_maxRows" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SalesAppTest.should_return_sales_id_sales_name_activity_time_when_nat_trade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit_test" />
       <extension name="coverage">
@@ -229,29 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VipParkingStrategyTest.testIsAllowOverPark_givenCarNameDoesNotContainsCharacterAAndIsVipCar_thenReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="parking" />
-      <option name="MAIN_CLASS_NAME" value="parking.VipParkingStrategyTest" />
-      <option name="METHOD_NAME" value="testIsAllowOverPark_givenCarNameDoesNotContainsCharacterAAndIsVipCar_thenReturnFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SalesAppTest.should_generate_template_list_when_given_maxRows" />
         <item itemvalue="JUnit.SalesAppTest.should_return_sales_id_sales_name_activity_time_when_nat_trade" />
         <item itemvalue="JUnit.SalesAppTest.should_return_true_when_sales_date_is_valid" />
         <item itemvalue="JUnit.VipParkingStrategyTest.testIsAllowOverPark_givenCarNameDoesNotContainsCharacterAAndIsNotVipCar_thenReturnFalse" />
         <item itemvalue="JUnit.VipParkingStrategyTest.testIsAllowOverPark_givenCarNameContainsCharacterAAndIsNotVipCar_thenReturnFalse" />
-        <item itemvalue="JUnit.VipParkingStrategyTest.testIsAllowOverPark_givenCarNameDoesNotContainsCharacterAAndIsVipCar_thenReturnFalse" />
       </list>
     </recent_temporary>
   </component>
