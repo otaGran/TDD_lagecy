@@ -78,4 +78,12 @@ public class SalesApp {
 			return Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
 		}
 	}
+
+	protected List<SalesReportData> generateTempList(int maxRow, List<SalesReportData> oriList) {
+		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
+		for (int i = 0; i < oriList.size() || i < maxRow; i++) {
+			tempList.add(oriList.get(i));
+		}
+		return tempList;
+	}
 }
