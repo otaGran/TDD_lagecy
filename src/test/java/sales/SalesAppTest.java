@@ -2,8 +2,11 @@ package sales;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.spy;
@@ -36,5 +39,14 @@ public class SalesAppTest {
 
 
 		assertTrue(res);
+	}
+
+	@Test
+	public void should_return_sales_id_sales_name_activity_time_when_nat_trade() {
+
+
+		List<String> headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
+		SalesApp salesApp = spy(new SalesApp());
+		assertEquals(headers, salesApp.getHeaders(true));
 	}
 }
