@@ -43,8 +43,6 @@ public class SalesAppTest {
 
 	@Test
 	public void should_return_sales_id_sales_name_activity_time_when_nat_trade() {
-
-
 		List<String> headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
 		SalesApp salesApp = spy(new SalesApp());
 		assertEquals(headers, salesApp.getHeaders(true));

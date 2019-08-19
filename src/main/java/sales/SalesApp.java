@@ -48,11 +48,11 @@ public class SalesApp {
 		}
 		filteredReportDataList = tempList;
 		
-		if (isNatTrade) {
-			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
-		} else {
-			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
-		}
+//		if (isNatTrade) {
+//			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
+//		} else {
+//			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
+//		}
 		
 		SalesActivityReport report = this.generateReport(headers, reportDataList);
 		
@@ -71,5 +71,11 @@ public class SalesApp {
 		return !today.after(sales.getEffectiveTo())
 				&& !today.before(sales.getEffectiveFrom());
 	}
-
+	protected List<String> getHeaders(boolean isNatTrade) {
+		if (isNatTrade) {
+			return Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
+		} else {
+			return Arrays.asList("Sales ID", "Sales Name", "Activity", "Local Time");
+		}
+	}
 }
