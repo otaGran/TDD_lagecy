@@ -15,17 +15,18 @@ public class SalesApp {
 		
 		List<SalesReportData> filteredReportDataList = new ArrayList<SalesReportData>();
 		
+
 		if (salesId == null) {
 			return;
 		}
 		
 		Sales sales = salesDao.getSalesBySalesId(salesId);
 		
-		Date today = new Date();
-		if (today.after(sales.getEffectiveTo())
-				|| today.before(sales.getEffectiveFrom())){
-			return;
-		}
+//		Date today = new Date();
+//		if (today.after(sales.getEffectiveTo())
+//				|| today.before(sales.getEffectiveFrom())){
+//			return;
+//		}
 		
 		List<SalesReportData> reportDataList = salesReportDao.getReportData(sales);
 		
@@ -63,6 +64,12 @@ public class SalesApp {
 	private SalesActivityReport generateReport(List<String> headers, List<SalesReportData> reportDataList) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	protected boolean isValidDate(Sales sales) {
+		Date today = new Date();
+		return !today.after(sales.getEffectiveTo())
+				&& !today.before(sales.getEffectiveFrom());
 	}
 
 }
