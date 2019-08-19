@@ -42,11 +42,11 @@ public class SalesApp {
 			}
 		}
 		
-		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
-		for (int i=0; i < reportDataList.size() || i < maxRow; i++) {
-			tempList.add(reportDataList.get(i));
-		}
-		filteredReportDataList = tempList;
+//		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
+//		for (int i=0; i < reportDataList.size() || i < maxRow; i++) {
+//			tempList.add(reportDataList.get(i));
+//		}
+		filteredReportDataList = generateTempList(maxRow, reportDataList);
 		
 //		if (isNatTrade) {
 //			headers = Arrays.asList("Sales ID", "Sales Name", "Activity", "Time");
@@ -79,10 +79,10 @@ public class SalesApp {
 		}
 	}
 
-	protected List<SalesReportData> generateTempList(int maxRow, List<SalesReportData> oriList) {
+	protected List<SalesReportData> generateTempList(int maxRow, List<SalesReportData> reportDataList) {
 		List<SalesReportData> tempList = new ArrayList<SalesReportData>();
-		for (int i = 0; i < oriList.size() || i < maxRow; i++) {
-			tempList.add(oriList.get(i));
+		for (int i = 0; i < reportDataList.size() || i < maxRow; i++) {
+			tempList.add(reportDataList.get(i));
 		}
 		return tempList;
 	}

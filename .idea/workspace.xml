@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be5b8c7-c599-4f64-aa79-8edcc4e41bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sales/SalesApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sales/SalesAppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,25 +30,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="285">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="410">
+              <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+              <folding>
+                <element signature="e#2394#2411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/parking/VipParkingStrategy.java" />
         <option value="$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sales/SalesApp.java" />
       </list>
     </option>
   </component>
@@ -294,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566173898317</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[alexander][test][should_generate_template_list_when_given_maxRows]">
+      <created>1566174280518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566174280518</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[alexander][impl][should_generate_template_list_when_given_maxRows]">
+      <created>1566174329237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566174329237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -366,7 +380,9 @@
     <MESSAGE value="[alexander][impl][should_return_true_when_sales_date_is_valid]" />
     <MESSAGE value="[alexander][test][should_return_sales_id_sales_name_activity_time_when_nat_trade]" />
     <MESSAGE value="[alexander][impl][should_return_sales_id_sales_name_activity_time_when_nat_trade]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_return_sales_id_sales_name_activity_time_when_nat_trade]" />
+    <MESSAGE value="[alexander][test][should_generate_template_list_when_given_maxRows]" />
+    <MESSAGE value="[alexander][impl][should_generate_template_list_when_given_maxRows]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[alexander][impl][should_generate_template_list_when_given_maxRows]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/InOrderParkingStrategyTest.java">
@@ -406,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parking/VipParkingStrategyJMockitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -422,12 +431,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sales/SalesAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sales/SalesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+          <folding>
+            <element signature="e#2394#2411#0" expanded="true" />
           </folding>
         </state>
       </provider>
